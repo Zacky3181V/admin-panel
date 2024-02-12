@@ -29,7 +29,8 @@ NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME="put-name-here"
 ```
 
 4. In the terminal write following commands, it will create a database in the connection string you provided in DATABASE_URL  
-```npx prisma generate
+```
+npx prisma generate
 npx prisma db push
 ```
 
