@@ -52,5 +52,5 @@ bun dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Token for Store
-1. If everything is fine project should launch with no errors. Youy will see clerk authentication window and after that you must create first store then you will be redirected to dashboard page. Please go to **Settings** tab and find the token you will need it when setting up the [Store](https://github.com/Zacky3181V/store) project
+If everything is fine project should launch with no errors. Youy will see clerk authentication window and after that you must create first store then you will be redirected to dashboard page. Please go to **Settings** tab and find the token you will need it when setting up the [Store](https://github.com/Zacky3181V/store) project
 
