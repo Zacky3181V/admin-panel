@@ -17,12 +17,12 @@ It will create .env file with DATABASE_URL. Please, read the [documentation](htt
 
 2. Put the tokens from Clerk and Cloudinary there like this
    ```NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=key_here_without_quotes
-   CLERK_SECRET_KEY=key_here_without_quotes
-   NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in 
-   NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up 
-   NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
-   NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
-   NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME="put-name-here"```
+      CLERK_SECRET_KEY=key_here_without_quotes
+      NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in 
+      NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up 
+      NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
+      NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
+      NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME="put-name-here"```
 
 3. In the terminal write following commands, it will create a database in the connection string you provided in DATABASE_URL  
 ```npx prisma generate
