@@ -1,7 +1,7 @@
 
 <img src="https://moodle.wsiz.edu.pl/pluginfile.php/1/theme_alpha/customlogotopbar/1707397324/wsiz-favicon.png" width="75" height="75"></img>  
 <br />
-I will make docker soon for both repositories
+Docker support will be soon
 ## Requirements
 1. Node.js installed
 2. Clerk account token (thirdparty platform for authentication)
