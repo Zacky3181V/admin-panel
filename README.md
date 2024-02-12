@@ -13,7 +13,7 @@ git clone https://github.com/Zacky3181V/admin-panel
 3. Run ```npm i``` to install all necessary dependencies
 ### Database
 1. Run ```prisma init``` in the terminal in the root of the project
-It will create .env file with DATABASE_URL. Please, read the (documentation)[https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases/connect-your-database-node-postgresql] of prisma on how to setup a database for local use. I used planetscale as a platform to host my database
+It will create .env file with DATABASE_URL. Please, read the [documentation](https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases/connect-your-database-node-postgresql) of prisma on how to setup a database for local use. I used planetscale as a platform to host my database
 
 2. Put the tokens from Clerk and Cloudinary there like this
    ```
@@ -25,6 +25,7 @@ It will create .env file with DATABASE_URL. Please, read the (documentation)[htt
    NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
    NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME="put-name-here"
   ```
+
 3. In the terminal write following commands, it will create a database in the connection string you provided in DATABASE_URL
 ```
 npx prisma generate
