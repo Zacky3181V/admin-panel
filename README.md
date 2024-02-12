@@ -1,5 +1,7 @@
 
-<img src="https://moodle.wsiz.edu.pl/pluginfile.php/1/theme_alpha/customlogotopbar/1707397324/wsiz-favicon.png" width="75" height="75"></img>
+<img src="https://moodle.wsiz.edu.pl/pluginfile.php/1/theme_alpha/customlogotopbar/1707397324/wsiz-favicon.png" width="75" height="75"></img>  
+<br />
+I will make docker soon for both repositories
 ## Requirements
 1. Node.js installed
 2. Clerk account token (thirdparty platform for authentication)
@@ -48,4 +50,7 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Token for Store
+1. If everything is fine project should launch with no errors. Youy will see clerk authentication window and after that you must create first store then you will be redirected to dashboard page. Please go to **Settings** tab and find the token you will need it when setting up the [Store](https://github.com/Zacky3181V/store) project
 
