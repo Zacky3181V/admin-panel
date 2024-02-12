@@ -1,4 +1,5 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<img src="https://moodle.wsiz.edu.pl/pluginfile.php/1/theme_alpha/customlogotopbar/1707397324/wsiz-favicon.png" width="75" height="75"></img>
 ## Requirements
 1. Node.js installed
 2. Clerk account token (thirdparty platform for authentication)
